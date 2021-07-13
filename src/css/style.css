@@ -1,0 +1,99 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: lightblue;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .App {
+    background-color: #fff;
+    max-width: 992px;
+    margin: auto;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid grey;
+      background-color: orange;
+      padding: 10px 20px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-menu__link {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid grey;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px 8px;
+    background-color: #fff;
+}
+
+.nav-menu__link:hover {
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-menu__link.active {
+  background-color: blue;
+  
+}
+
+.logo-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.main-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+home-image {
+    width: 100%;
+    height: 500px;
+    background-image: url("");
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1,
+.home-thumbnail-1,
+.home-thumbnail-1{
+  background-size: cover;
+  width: 200px;
+  height: 100px;
+}
+
+.home-thumbnail-1 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShUWRUbEGeBBgov8Bg-VHnCoupSMS2uUmDxg&usqp=CAU');
+}
+
+.home-thumbnail-2 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7tlJXFjXtRzs2EdQpDp1en3Jaytb9_DKxQ&usqp=CAU');
+}
+
+.home-thumbnail-3 {
+  background-image: url('https://variety.com/wp-content/uploads/2019/02/green-book-3.jpg?w=681&h=383&crop=1');
+}
